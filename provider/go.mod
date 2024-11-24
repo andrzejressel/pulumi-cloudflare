@@ -257,4 +257,7 @@ require (
 replace (
 	github.com/cloudflare/terraform-provider-cloudflare/shim => ./shim
 	github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20240520223432-0c0bf0d65f10
+	github.com/pulumi/pulumi-terraform-bridge/v3 => github.com/andrzejressel/pulumi-terraform-bridge/v3 v3.0.0-20241124205528-de6f3852f5fa
+	github.com/pulumi/pulumi/pkg/v3 => github.com/andrzejressel/pulumi/pkg/v3 v3.111.2-0.20241124205029-54218e9989d0
+	github.com/pulumi/pulumi/sdk/v3 => github.com/andrzejressel/pulumi/sdk/v3 v3.111.2-0.20241124205029-54218e9989d0
 )
